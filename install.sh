@@ -9,8 +9,9 @@ echo "\n" >> ~/.zshrc
 
 source ~/.zshrc 
 
-nvm install 4.2 && nvm alias default 4.2 && node -v
-
-npm i -g nrm  && nrm use taobao
-
+nvm install 4.2
+nvm alias default 4.2
+node -v
+npm i -g nrm
+nrm use taobao
 nrm ls 
