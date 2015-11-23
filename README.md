@@ -5,10 +5,11 @@
 
 To install or update node, you can use the install script using cURL:
 
-curl -o- https://raw.githubusercontent.com/i5ting/nodeinstall/master/install.sh | bash
+    curl -o- https://raw.githubusercontent.com/i5ting/nodeinstall/master/install.sh | bash
+
 or Wget:
 
-wget -qO- https://raw.githubusercontent.com/i5ting/nodeinstall/master/install.sh | bash
+    wget -qO- https://raw.githubusercontent.com/i5ting/nodeinstall/master/install.sh | bash
 
 
 ## Contributing
