@@ -7,7 +7,7 @@ echo "export NVM_DIR="/home/coding/.nvm"" >> ~/.zshrc
 echo "[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"" >> ~/.zshrc
 echo "\n" >> ~/.zshrc
 
-source /home/coding/.zshrc 
+source ~/.zshrc 
 
 nvm install 4.2 && nvm alias default 4.2 && node -v
 
